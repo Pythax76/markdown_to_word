@@ -1,0 +1,25 @@
+# config/logging_config.yaml
+
+version: 1
+disable_existing_loggers: false
+formatters:
+    standard:
+        format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    simple:
+        format: "%(asctime)s - %(levelname)s - %(message)s"
+handlers:
+    console:
+        class: logging.StreamHandler
+        level: DEBUG
+        formatter: simple
+        stream: ext://sys.stdout
+    file:
+        class: logging.FileHandler
+        level: DEBUG
+        formatter: standard
+        filename: markdown_to_word_debug.log
+        encoding: utf8
+root:
+    level: DEBUG
+    handlers: [console, file]
+  

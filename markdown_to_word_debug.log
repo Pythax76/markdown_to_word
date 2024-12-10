@@ -1,0 +1,1128 @@
+2024-12-09 17:38:46,438 - DEBUG - Test debug message
+2024-12-09 17:38:46,439 - INFO - Test info message
+2024-12-09 18:11:23,130 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-09 18:11:23,131 - DEBUG - StyleManager initialized
+2024-12-09 18:11:23,164 - ERROR - Conversion failed: 'NoneType' object has no attribute 'Paragraphs'
+2024-12-09 18:11:23,168 - ERROR - Conversion failed: 'NoneType' object has no attribute 'Paragraphs'
+Traceback (most recent call last):
+  File "c:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\main.py", line 71, in main
+    output_file = converter.convert(template_path, markdown_path, output_dir)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 34, in convert
+    self.process_markdown_file(doc, markdown_path)
+  File "c:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 56, in process_markdown_file
+    self.text_formatter.process_content(doc, content, self.style_manager)
+  File "c:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\formatters.py", line 41, in process_content
+    self.process_line(doc, line.strip(), style_manager)
+  File "c:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\formatters.py", line 58, in process_line
+    paragraph = doc.Paragraphs.Add()
+                ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'Paragraphs'
+2024-12-09 18:14:05,140 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-09 18:14:05,140 - DEBUG - StyleManager initialized
+2024-12-09 18:14:05,187 - ERROR - Conversion failed: 'NoneType' object has no attribute 'Paragraphs'
+2024-12-09 18:14:05,195 - ERROR - Conversion failed: 'NoneType' object has no attribute 'Paragraphs'
+Traceback (most recent call last):
+  File "c:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\main.py", line 71, in main
+    output_file = converter.convert(template_path, markdown_path, output_dir)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 34, in convert
+    self.process_markdown_file(doc, markdown_path)
+  File "c:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 56, in process_markdown_file
+    self.text_formatter.process_content(doc, content, self.style_manager)
+  File "c:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\formatters.py", line 41, in process_content
+    self.process_line(doc, line.strip(), style_manager)
+  File "c:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\formatters.py", line 58, in process_line
+    paragraph = doc.Paragraphs.Add()
+                ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'Paragraphs'
+2024-12-09 18:14:54,921 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-09 18:14:54,922 - DEBUG - StyleManager initialized
+2024-12-09 18:14:54,971 - ERROR - Conversion failed: 'NoneType' object has no attribute 'Paragraphs'
+2024-12-09 18:14:54,978 - ERROR - Conversion failed: 'NoneType' object has no attribute 'Paragraphs'
+Traceback (most recent call last):
+  File "c:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\main.py", line 71, in main
+    output_file = converter.convert(template_path, markdown_path, output_dir)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 34, in convert
+    self.process_markdown_file(doc, markdown_path)
+  File "c:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 56, in process_markdown_file
+    self.text_formatter.process_content(doc, content, self.style_manager)
+  File "c:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\formatters.py", line 41, in process_content
+    self.process_line(doc, line.strip(), style_manager)
+  File "c:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\formatters.py", line 58, in process_line
+    paragraph = doc.Paragraphs.Add()
+                ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'Paragraphs'
+2024-12-09 18:18:43,749 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-09 18:18:43,749 - DEBUG - StyleManager initialized
+2024-12-09 18:18:43,767 - ERROR - Conversion failed: Failed to create document from template
+2024-12-09 18:19:00,077 - ERROR - Error during conversion: Failed to create document from template
+Traceback (most recent call last):
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\main.py", line 95, in main
+    output_file = converter.convert(template_path, markdown_path, output_dir)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 32, in convert
+    raise RuntimeError("Failed to create document from template")
+RuntimeError: Failed to create document from template
+2024-12-09 18:24:16,389 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-09 18:24:16,389 - DEBUG - StyleManager initialized
+2024-12-09 18:24:16,399 - INFO - Word application initialized successfully
+2024-12-09 18:24:16,418 - ERROR - Template validation failed: <unknown>.Load
+2024-12-09 18:24:16,418 - ERROR - Conversion failed: Invalid template file: <unknown>.Load
+2024-12-09 18:24:42,757 - ERROR - Error during conversion: Invalid template file: <unknown>.Load
+Traceback (most recent call last):
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 47, in validate_template
+    template = self.word_app.Templates.Load(template_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\venv\Lib\site-packages\win32com\client\dynamic.py", line 629, in __getattr__
+    raise AttributeError(f"{self._username_}.{attr}")
+AttributeError: <unknown>.Load
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\main.py", line 88, in main
+    output_file = converter.convert(template_path, markdown_path, output_dir)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 94, in convert
+    self.validate_template(template_path)
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 53, in validate_template
+    raise ValueError(f"Invalid template file: {str(e)}")
+ValueError: Invalid template file: <unknown>.Load
+2024-12-09 18:27:44,265 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-09 18:27:44,265 - DEBUG - StyleManager initialized
+2024-12-09 18:27:44,283 - INFO - Word application initialized successfully
+2024-12-09 18:27:44,283 - INFO - Using template: C:\Users\jlawrence\OneDrive - Photronics\Documents\TemplateCity\Photronics_Governance_Template_Python.dotm
+2024-12-09 18:27:44,284 - INFO - Converting markdown file: C:\Users\jlawrence\OneDrive - Photronics\Documents\IT Securtiy\Policy Management\Output\Test Markdown Code for Conversion using VBA.md
+2024-12-09 18:27:44,320 - ERROR - Template validation failed: 'NoneType' object has no attribute 'Paragraphs'
+2024-12-09 18:27:44,320 - ERROR - Conversion failed: Invalid or corrupted template file: 'NoneType' object has no attribute 'Paragraphs'
+2024-12-09 18:27:58,654 - ERROR - Error during conversion: Invalid or corrupted template file: 'NoneType' object has no attribute 'Paragraphs'
+Traceback (most recent call last):
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 52, in validate_template
+    _ = test_doc.Paragraphs.Count
+        ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'Paragraphs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\main.py", line 88, in main
+    output_file = converter.convert(template_path, markdown_path, output_dir)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 116, in convert
+    self.validate_template(template_path)
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 57, in validate_template
+    raise ValueError(f"Invalid or corrupted template file: {str(e)}")
+ValueError: Invalid or corrupted template file: 'NoneType' object has no attribute 'Paragraphs'
+2024-12-09 18:30:35,296 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-09 18:30:35,296 - DEBUG - StyleManager initialized
+2024-12-09 18:30:36,383 - INFO - Word application initialized successfully
+2024-12-09 18:30:36,383 - INFO - Attempting to create document from template: C:\Users\jlawrence\OneDrive - Photronics\Documents\TemplateCity\Photronics_Governance_Template_Python_Gold.dotm
+2024-12-09 18:30:37,406 - ERROR - Failed to create document: Document creation failed
+2024-12-09 18:30:37,406 - ERROR - Conversion failed: Failed to create document from template: Document creation failed
+2024-12-09 18:30:37,441 - ERROR - Error during conversion: Failed to create document from template: Document creation failed
+Traceback (most recent call last):
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 79, in create_document
+    raise RuntimeError("Document creation failed")
+RuntimeError: Document creation failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\main.py", line 88, in main
+    output_file = converter.convert(template_path, markdown_path, output_dir)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 113, in convert
+    self.create_document(template_path)
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 89, in create_document
+    raise RuntimeError(f"Failed to create document from template: {str(e)}")
+RuntimeError: Failed to create document from template: Document creation failed
+2024-12-09 18:32:45,157 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-09 18:32:45,157 - DEBUG - StyleManager initialized
+2024-12-09 18:32:49,672 - INFO - Word application initialized successfully
+2024-12-09 18:32:49,672 - INFO - Converting C:\Users\jlawrence\OneDrive - Photronics\Documents\IT Securtiy\Policy Management\Output\Test Markdown Code for Conversion using VBA.md using template C:\Users\jlawrence\OneDrive - Photronics\Documents\TemplateCity\Photronics_Governance_Template_Python_Gold.dotm
+2024-12-09 18:32:49,673 - INFO - Creating document from template: C:\Users\jlawrence\OneDrive - Photronics\Documents\TemplateCity\Photronics_Governance_Template_Python_Gold.dotm
+2024-12-09 18:32:49,673 - INFO - Template verified: C:\Users\jlawrence\OneDrive - Photronics\Documents\TemplateCity\Photronics_Governance_Template_Python_Gold.dotm
+2024-12-09 18:32:49,911 - WARNING - Failed to attach template, trying direct creation: Add.set_AttachedTemplate
+2024-12-09 18:32:51,163 - INFO - Document created successfully
+2024-12-09 18:32:51,846 - INFO - Applied style: Body 0
+2024-12-09 18:32:52,239 - INFO - Applied style: Body 0
+2024-12-09 18:32:52,566 - INFO - Applied style: Heading 1
+2024-12-09 18:32:52,893 - INFO - Applied style: Body 1
+2024-12-09 18:32:53,440 - INFO - Applied style: Bullet 1
+2024-12-09 18:32:53,667 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:53,703 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:53,889 - INFO - Applied style: Bullet 1
+2024-12-09 18:32:54,188 - INFO - Applied style: Bullet 1
+2024-12-09 18:32:54,256 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:54,276 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:54,340 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:54,505 - DEBUG - Style Quote 1 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-09 18:32:54,516 - DEBUG - Style Quote 0 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-09 18:32:54,537 - WARNING - Fell back to Normal style for blockquote
+2024-12-09 18:32:54,701 - INFO - Applied style: Numbered 1
+2024-12-09 18:32:54,855 - INFO - Applied style: Body 1
+2024-12-09 18:32:55,075 - INFO - Applied style: Heading 2
+2024-12-09 18:32:55,240 - INFO - Applied style: Body 2
+2024-12-09 18:32:55,397 - INFO - Applied style: Bullet 2
+2024-12-09 18:32:55,464 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:55,493 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:55,625 - INFO - Applied style: Bullet 2
+2024-12-09 18:32:55,825 - INFO - Applied style: Bullet 2
+2024-12-09 18:32:55,933 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:55,972 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:56,016 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:56,170 - DEBUG - Style Quote 2 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-09 18:32:56,180 - DEBUG - Style Quote 0 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-09 18:32:56,206 - WARNING - Fell back to Normal style for blockquote
+2024-12-09 18:32:56,329 - INFO - Applied style: Numbered 2
+2024-12-09 18:32:56,482 - INFO - Applied style: Body 2
+2024-12-09 18:32:56,639 - INFO - Applied style: Heading 3
+2024-12-09 18:32:56,747 - INFO - Applied style: Body 3
+2024-12-09 18:32:56,884 - INFO - Applied style: Bullet 3
+2024-12-09 18:32:56,955 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:56,971 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:57,300 - INFO - Applied style: Bullet 3
+2024-12-09 18:32:57,709 - INFO - Applied style: Bullet 3
+2024-12-09 18:32:57,764 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:57,784 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:57,798 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:57,936 - DEBUG - Style Quote 3 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-09 18:32:57,993 - DEBUG - Style Quote 0 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-09 18:32:58,038 - WARNING - Fell back to Normal style for blockquote
+2024-12-09 18:32:58,217 - INFO - Applied style: Numbered 3
+2024-12-09 18:32:58,362 - INFO - Applied style: Heading 4
+2024-12-09 18:32:58,515 - INFO - Applied style: Body 4
+2024-12-09 18:32:58,697 - INFO - Applied style: Bullet 4
+2024-12-09 18:32:58,746 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:58,773 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:58,938 - INFO - Applied style: Bullet 4
+2024-12-09 18:32:59,113 - INFO - Applied style: Bullet 4
+2024-12-09 18:32:59,150 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:59,165 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:59,176 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-09 18:32:59,300 - DEBUG - Style Quote 4 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-09 18:32:59,314 - DEBUG - Style Quote 0 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-09 18:32:59,348 - WARNING - Fell back to Normal style for blockquote
+2024-12-09 18:32:59,500 - INFO - Applied style: Numbered 4
+2024-12-09 18:32:59,690 - INFO - Applied style: Body 4
+2024-12-09 18:33:00,020 - INFO - Document saved successfully to C:\Users\jlawrence\Documents\Markdown_Verter_Output\20241209_183251_Test Markdown Code for Conversion using VBA.docx
+2024-12-10 03:25:25,860 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-10 03:25:25,861 - DEBUG - StyleManager initialized
+2024-12-10 03:25:30,276 - INFO - Word application initialized successfully
+2024-12-10 03:25:30,276 - INFO - Converting C:\Users\jlawrence\OneDrive - Photronics\Documents\IT Securtiy\Policy Management\Output\Test Markdown Code for Conversion using VBA.md using template C:\Users\jlawrence\OneDrive - Photronics\Documents\Custom Office Templates\Empty Template WITH Style.dotm
+2024-12-10 03:25:30,277 - INFO - Creating document from template: C:\Users\jlawrence\OneDrive - Photronics\Documents\Custom Office Templates\Empty Template WITH Style.dotm
+2024-12-10 03:25:30,277 - INFO - Template verified: C:\Users\jlawrence\OneDrive - Photronics\Documents\Custom Office Templates\Empty Template WITH Style.dotm
+2024-12-10 03:25:30,549 - WARNING - Failed to attach template, trying direct creation: Add.set_AttachedTemplate
+2024-12-10 03:25:31,294 - INFO - Document created successfully
+2024-12-10 03:25:31,961 - INFO - Applied style: Body 0
+2024-12-10 03:25:32,294 - INFO - Applied style: Body 0
+2024-12-10 03:25:32,571 - INFO - Applied style: Heading 1
+2024-12-10 03:25:32,859 - INFO - Applied style: Body 1
+2024-12-10 03:25:33,068 - INFO - Applied style: Bullet 1
+2024-12-10 03:25:33,133 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:33,151 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:33,380 - INFO - Applied style: Bullet 1
+2024-12-10 03:25:33,827 - INFO - Applied style: Bullet 1
+2024-12-10 03:25:33,935 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:33,982 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:34,019 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:34,212 - DEBUG - Style Quote 1 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-10 03:25:34,228 - DEBUG - Style Quote 0 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-10 03:25:34,262 - WARNING - Fell back to Normal style for blockquote
+2024-12-10 03:25:34,480 - INFO - Applied style: Numbered 1
+2024-12-10 03:25:34,654 - INFO - Applied style: Body 1
+2024-12-10 03:25:34,922 - INFO - Applied style: Heading 2
+2024-12-10 03:25:35,083 - INFO - Applied style: Body 2
+2024-12-10 03:25:35,265 - INFO - Applied style: Bullet 2
+2024-12-10 03:25:35,324 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:35,351 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:35,475 - INFO - Applied style: Bullet 2
+2024-12-10 03:25:35,658 - INFO - Applied style: Bullet 2
+2024-12-10 03:25:35,724 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:35,749 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:35,775 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:35,913 - DEBUG - Style Quote 2 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-10 03:25:35,930 - DEBUG - Style Quote 0 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-10 03:25:35,957 - WARNING - Fell back to Normal style for blockquote
+2024-12-10 03:25:36,110 - INFO - Applied style: Numbered 2
+2024-12-10 03:25:36,200 - INFO - Applied style: Body 2
+2024-12-10 03:25:36,350 - INFO - Applied style: Heading 3
+2024-12-10 03:25:36,505 - INFO - Applied style: Body 3
+2024-12-10 03:25:36,619 - INFO - Applied style: Bullet 3
+2024-12-10 03:25:36,672 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:36,703 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:36,832 - INFO - Applied style: Bullet 3
+2024-12-10 03:25:37,060 - INFO - Applied style: Bullet 3
+2024-12-10 03:25:37,155 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:37,186 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:37,217 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:37,393 - DEBUG - Style Quote 3 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-10 03:25:37,406 - DEBUG - Style Quote 0 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-10 03:25:37,434 - WARNING - Fell back to Normal style for blockquote
+2024-12-10 03:25:37,630 - INFO - Applied style: Numbered 3
+2024-12-10 03:25:37,912 - INFO - Applied style: Heading 4
+2024-12-10 03:25:38,238 - INFO - Applied style: Body 4
+2024-12-10 03:25:38,379 - INFO - Applied style: Bullet 4
+2024-12-10 03:25:38,440 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:38,480 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:38,568 - INFO - Applied style: Bullet 4
+2024-12-10 03:25:38,755 - INFO - Applied style: Bullet 4
+2024-12-10 03:25:38,828 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:38,855 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:38,881 - WARNING - Failed to apply character formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:25:39,025 - DEBUG - Style Quote 4 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-10 03:25:39,034 - DEBUG - Style Quote 0 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-10 03:25:39,052 - WARNING - Fell back to Normal style for blockquote
+2024-12-10 03:25:39,149 - INFO - Applied style: Numbered 4
+2024-12-10 03:25:39,276 - INFO - Applied style: Body 4
+2024-12-10 03:25:39,683 - INFO - Document saved successfully to C:\Users\jlawrence\Documents\Markdown_Verter_Output\20241210_032531_Test Markdown Code for Conversion using VBA.docx
+2024-12-10 03:32:20,999 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-10 03:32:20,999 - DEBUG - StyleManager initialized
+2024-12-10 03:32:25,252 - INFO - Word application initialized successfully
+2024-12-10 03:32:25,252 - INFO - Converting C:\Users\jlawrence\OneDrive - Photronics\Documents\IT Securtiy\Policy Management\Output\Test Markdown Code for Conversion using VBA.md using template C:\Users\jlawrence\OneDrive - Photronics\Documents\Custom Office Templates\Empty Template WITH Style.dotm
+2024-12-10 03:32:25,253 - INFO - Creating document from template: C:\Users\jlawrence\OneDrive - Photronics\Documents\Custom Office Templates\Empty Template WITH Style.dotm
+2024-12-10 03:32:25,253 - INFO - Template verified: C:\Users\jlawrence\OneDrive - Photronics\Documents\Custom Office Templates\Empty Template WITH Style.dotm
+2024-12-10 03:32:25,506 - WARNING - Failed to attach template, trying direct creation: Add.set_AttachedTemplate
+2024-12-10 03:32:26,244 - INFO - Document created successfully
+2024-12-10 03:32:27,077 - INFO - Applied style: Body 0
+2024-12-10 03:32:27,127 - DEBUG - Added paragraph with style body: Markdown Code Conversion using VBA...
+2024-12-10 03:32:27,567 - INFO - Applied style: Body 0
+2024-12-10 03:32:27,610 - DEBUG - Added paragraph with style body: ==================================...
+2024-12-10 03:32:28,008 - INFO - Applied style: Heading 1
+2024-12-10 03:32:28,047 - DEBUG - Added paragraph with style heading: Heading 1: This is an Example of Heading 1...
+2024-12-10 03:32:28,490 - INFO - Applied style: Body 1
+2024-12-10 03:32:28,524 - DEBUG - Added paragraph with style body: This is an example of Body13 text provided to ensu...
+2024-12-10 03:32:28,849 - INFO - Applied style: Bullet 1
+2024-12-10 03:32:29,003 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:29,043 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:29,047 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 03:32:29,308 - INFO - Applied style: Bullet 1
+2024-12-10 03:32:29,378 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 03:32:29,528 - INFO - Applied style: Bullet 1
+2024-12-10 03:32:29,635 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:29,655 - WARNING - Failed to apply ('Bold', 'Italic') formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:29,673 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:29,705 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 03:32:29,829 - DEBUG - Style Quote 1 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-10 03:32:29,840 - DEBUG - Style Quote 0 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-10 03:32:29,862 - WARNING - Fell back to Normal style for blockquote
+2024-12-10 03:32:29,919 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 03:32:30,112 - INFO - Applied style: Numbered 1
+2024-12-10 03:32:30,129 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 03:32:30,308 - INFO - Applied style: Body 1
+2024-12-10 03:32:30,373 - WARNING - Failed to apply ('Code',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Item with specified name does not exist.', 'wdmain11.chm', 25314, -2146822454), None)
+2024-12-10 03:32:30,377 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 03:32:30,546 - INFO - Applied style: Heading 2
+2024-12-10 03:32:30,581 - DEBUG - Added paragraph with style heading: Heading 2: This is an Example of Heading 2...
+2024-12-10 03:32:30,817 - INFO - Applied style: Body 2
+2024-12-10 03:32:30,836 - DEBUG - Added paragraph with style body: This is an example of Body 2 text provided to ensu...
+2024-12-10 03:32:30,984 - INFO - Applied style: Bullet 2
+2024-12-10 03:32:31,052 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:31,096 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:31,100 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 03:32:31,347 - INFO - Applied style: Bullet 2
+2024-12-10 03:32:31,428 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 03:32:31,559 - INFO - Applied style: Bullet 2
+2024-12-10 03:32:31,612 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:31,628 - WARNING - Failed to apply ('Bold', 'Italic') formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:31,644 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:31,679 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 03:32:31,782 - DEBUG - Style Quote 2 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-10 03:32:31,791 - DEBUG - Style Quote 0 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-10 03:32:31,809 - WARNING - Fell back to Normal style for blockquote
+2024-12-10 03:32:31,829 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 03:32:32,644 - INFO - Applied style: Numbered 2
+2024-12-10 03:32:32,713 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 03:32:33,036 - INFO - Applied style: Body 2
+2024-12-10 03:32:33,191 - WARNING - Failed to apply ('Code',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Item with specified name does not exist.', 'wdmain11.chm', 25314, -2146822454), None)
+2024-12-10 03:32:33,199 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 03:32:33,527 - INFO - Applied style: Heading 3
+2024-12-10 03:32:33,547 - DEBUG - Added paragraph with style heading: Heading 3: This is an Example of Heading 3...
+2024-12-10 03:32:33,695 - INFO - Applied style: Body 3
+2024-12-10 03:32:33,713 - DEBUG - Added paragraph with style body: This is an example of Body 3 text provided to ensu...
+2024-12-10 03:32:33,860 - INFO - Applied style: Bullet 3
+2024-12-10 03:32:33,942 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:33,977 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:33,980 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 03:32:34,238 - INFO - Applied style: Bullet 3
+2024-12-10 03:32:34,353 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 03:32:34,589 - INFO - Applied style: Bullet 3
+2024-12-10 03:32:34,666 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:34,709 - WARNING - Failed to apply ('Bold', 'Italic') formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:34,738 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:34,790 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 03:32:34,968 - DEBUG - Style Quote 3 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-10 03:32:34,990 - DEBUG - Style Quote 0 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-10 03:32:35,038 - WARNING - Fell back to Normal style for blockquote
+2024-12-10 03:32:35,070 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 03:32:35,317 - INFO - Applied style: Numbered 3
+2024-12-10 03:32:35,353 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 03:32:35,588 - INFO - Applied style: Heading 4
+2024-12-10 03:32:35,618 - DEBUG - Added paragraph with style heading: Heading 4: This is an Example of Heading 4...
+2024-12-10 03:32:35,847 - INFO - Applied style: Body 4
+2024-12-10 03:32:35,875 - DEBUG - Added paragraph with style body: This is an example of Body 4 text provided to ensu...
+2024-12-10 03:32:36,133 - INFO - Applied style: Bullet 4
+2024-12-10 03:32:36,249 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:36,299 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:36,306 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 03:32:36,641 - INFO - Applied style: Bullet 4
+2024-12-10 03:32:36,761 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 03:32:37,085 - INFO - Applied style: Bullet 4
+2024-12-10 03:32:37,157 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:37,193 - WARNING - Failed to apply ('Bold', 'Italic') formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:37,219 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:32:37,268 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 03:32:37,538 - DEBUG - Style Quote 4 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-10 03:32:37,661 - DEBUG - Style Quote 0 not found: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'The requested member of the collection does not exist.', 'wdmain11.chm', 25421, -2146822347), None)
+2024-12-10 03:32:37,733 - WARNING - Fell back to Normal style for blockquote
+2024-12-10 03:32:37,765 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 03:32:38,059 - INFO - Applied style: Numbered 4
+2024-12-10 03:32:38,088 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 03:32:38,367 - INFO - Applied style: Body 4
+2024-12-10 03:32:38,496 - WARNING - Failed to apply ('Code',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Item with specified name does not exist.', 'wdmain11.chm', 25314, -2146822454), None)
+2024-12-10 03:32:38,502 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 03:32:38,715 - INFO - Document saved successfully to C:\Users\jlawrence\Documents\Markdown_Verter_Output\20241210_033226_Test Markdown Code for Conversion using VBA.docx
+2024-12-10 03:59:41,343 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-10 03:59:41,343 - DEBUG - StyleManager initialized
+2024-12-10 03:59:45,626 - INFO - Word application initialized successfully
+2024-12-10 03:59:45,626 - INFO - Converting C:\Users\jlawrence\OneDrive - Photronics\Documents\Markdown\Test Markdown Code for Conversion using VBA.md using template C:\Users\jlawrence\OneDrive - Photronics\Documents\Custom Office Templates\Empty Template WITH Style.dotm
+2024-12-10 03:59:45,627 - INFO - Creating document from template: C:\Users\jlawrence\OneDrive - Photronics\Documents\Custom Office Templates\Empty Template WITH Style.dotm
+2024-12-10 03:59:45,627 - INFO - Template verified: C:\Users\jlawrence\OneDrive - Photronics\Documents\Custom Office Templates\Empty Template WITH Style.dotm
+2024-12-10 03:59:45,934 - WARNING - Failed to attach template, trying direct creation: Add.set_AttachedTemplate
+2024-12-10 03:59:46,911 - INFO - Document created successfully
+2024-12-10 03:59:47,698 - INFO - Applied style: Body 0
+2024-12-10 03:59:47,744 - DEBUG - Added paragraph with style body: Markdown Code Conversion using VBA...
+2024-12-10 03:59:48,068 - INFO - Applied style: Body 0
+2024-12-10 03:59:48,127 - DEBUG - Added paragraph with style body: ==================================...
+2024-12-10 03:59:48,384 - INFO - Applied style: Heading 1
+2024-12-10 03:59:48,413 - DEBUG - Added paragraph with style heading: Heading 1: This is an Example of Heading 1...
+2024-12-10 03:59:48,612 - INFO - Applied style: Body 1
+2024-12-10 03:59:48,646 - DEBUG - Added paragraph with style body: This is an example of Body13 text provided to ensu...
+2024-12-10 03:59:49,035 - INFO - Applied style: Bullet 1
+2024-12-10 03:59:49,159 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:49,212 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:49,220 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 03:59:49,624 - INFO - Applied style: Bullet 1
+2024-12-10 03:59:49,777 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 03:59:49,983 - INFO - Applied style: Bullet 1
+2024-12-10 03:59:50,057 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:50,095 - WARNING - Failed to apply ('Bold', 'Italic') formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:50,142 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:50,233 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 03:59:50,498 - DEBUG - Applying blockquote style: Blockquote 1
+2024-12-10 03:59:50,566 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 03:59:50,888 - INFO - Applied style: Numbered 1
+2024-12-10 03:59:50,943 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 03:59:51,324 - INFO - Applied style: Body 1
+2024-12-10 03:59:51,422 - WARNING - Failed to apply ('Code',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Item with specified name does not exist.', 'wdmain11.chm', 25314, -2146822454), None)
+2024-12-10 03:59:51,426 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 03:59:51,638 - INFO - Applied style: Heading 2
+2024-12-10 03:59:51,659 - DEBUG - Added paragraph with style heading: Heading 2: This is an Example of Heading 2...
+2024-12-10 03:59:51,924 - INFO - Applied style: Body 2
+2024-12-10 03:59:51,944 - DEBUG - Added paragraph with style body: This is an example of Body 2 text provided to ensu...
+2024-12-10 03:59:52,185 - INFO - Applied style: Bullet 2
+2024-12-10 03:59:52,232 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:52,255 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:52,256 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 03:59:52,392 - INFO - Applied style: Bullet 2
+2024-12-10 03:59:52,456 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 03:59:52,640 - INFO - Applied style: Bullet 2
+2024-12-10 03:59:52,947 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:53,001 - WARNING - Failed to apply ('Bold', 'Italic') formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:53,025 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:53,070 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 03:59:53,251 - DEBUG - Applying blockquote style: Blockquote 2
+2024-12-10 03:59:53,310 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 03:59:53,535 - INFO - Applied style: Numbered 2
+2024-12-10 03:59:53,566 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 03:59:53,760 - INFO - Applied style: Body 2
+2024-12-10 03:59:53,856 - WARNING - Failed to apply ('Code',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Item with specified name does not exist.', 'wdmain11.chm', 25314, -2146822454), None)
+2024-12-10 03:59:53,859 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 03:59:54,052 - INFO - Applied style: Heading 3
+2024-12-10 03:59:54,077 - DEBUG - Added paragraph with style heading: Heading 3: This is an Example of Heading 3...
+2024-12-10 03:59:54,290 - INFO - Applied style: Body 3
+2024-12-10 03:59:54,314 - DEBUG - Added paragraph with style body: This is an example of Body 3 text provided to ensu...
+2024-12-10 03:59:54,493 - INFO - Applied style: Bullet 3
+2024-12-10 03:59:54,554 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:54,582 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:54,585 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 03:59:54,762 - INFO - Applied style: Bullet 3
+2024-12-10 03:59:54,858 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 03:59:55,070 - INFO - Applied style: Bullet 3
+2024-12-10 03:59:55,141 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:55,169 - WARNING - Failed to apply ('Bold', 'Italic') formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:55,191 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:55,231 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 03:59:55,387 - DEBUG - Applying blockquote style: Blockquote 3
+2024-12-10 03:59:55,456 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 03:59:55,666 - INFO - Applied style: Numbered 3
+2024-12-10 03:59:55,687 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 03:59:55,860 - INFO - Applied style: Heading 4
+2024-12-10 03:59:55,896 - DEBUG - Added paragraph with style heading: Heading 4: This is an Example of Heading 4...
+2024-12-10 03:59:56,077 - INFO - Applied style: Body 4
+2024-12-10 03:59:56,100 - DEBUG - Added paragraph with style body: This is an example of Body 4 text provided to ensu...
+2024-12-10 03:59:56,291 - INFO - Applied style: Bullet 4
+2024-12-10 03:59:56,360 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:56,388 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:56,391 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 03:59:56,548 - INFO - Applied style: Bullet 4
+2024-12-10 03:59:56,664 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 03:59:56,942 - INFO - Applied style: Bullet 4
+2024-12-10 03:59:57,042 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:57,081 - WARNING - Failed to apply ('Bold', 'Italic') formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:57,103 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 03:59:57,155 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 03:59:57,261 - DEBUG - Applying blockquote style: Blockquote 4
+2024-12-10 03:59:57,290 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 03:59:57,381 - INFO - Applied style: Numbered 4
+2024-12-10 03:59:57,394 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 03:59:57,569 - INFO - Applied style: Body 4
+2024-12-10 03:59:57,668 - WARNING - Failed to apply ('Code',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Item with specified name does not exist.', 'wdmain11.chm', 25314, -2146822454), None)
+2024-12-10 03:59:57,679 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 03:59:57,856 - INFO - Document saved successfully to C:\Users\jlawrence\Documents\Markdown_Verter_Output\20241210_035946_Test Markdown Code for Conversion using VBA.docx
+2024-12-10 05:27:40,927 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-10 05:27:40,928 - DEBUG - StyleManager initialized
+2024-12-10 05:27:45,225 - INFO - Word application initialized successfully
+2024-12-10 05:27:45,225 - INFO - Converting C:\Users\jlawrence\OneDrive - Photronics\Documents\IT Securtiy\Policy Management\Output\Test Markdown Code for Conversion using VBA.md using template C:\Users\jlawrence\OneDrive - Photronics\Documents\Custom Office Templates\Empty Template WITH Style.dotm
+2024-12-10 05:27:45,226 - INFO - Creating document from template: C:\Users\jlawrence\OneDrive - Photronics\Documents\Custom Office Templates\Empty Template WITH Style.dotm
+2024-12-10 05:27:45,226 - INFO - Template verified: C:\Users\jlawrence\OneDrive - Photronics\Documents\Custom Office Templates\Empty Template WITH Style.dotm
+2024-12-10 05:27:45,484 - WARNING - Failed to attach template, trying direct creation: Add.set_AttachedTemplate
+2024-12-10 05:27:46,227 - INFO - Document created successfully
+2024-12-10 05:27:47,378 - INFO - Applied style: Body 0
+2024-12-10 05:27:47,467 - DEBUG - Added paragraph with style body: Markdown Code Conversion using VBA...
+2024-12-10 05:27:47,991 - INFO - Applied style: Body 0
+2024-12-10 05:27:48,047 - DEBUG - Added paragraph with style body: ==================================...
+2024-12-10 05:27:48,898 - INFO - Applied style: Heading 1
+2024-12-10 05:27:48,975 - DEBUG - Added paragraph with style heading: Heading 1: This is an Example of Heading 1...
+2024-12-10 05:27:49,399 - INFO - Applied style: Body 1
+2024-12-10 05:27:49,436 - DEBUG - Added paragraph with style body: This is an example of Body13 text provided to ensu...
+2024-12-10 05:27:49,820 - INFO - Applied style: Bullet 1
+2024-12-10 05:27:49,902 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:49,938 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:49,941 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 05:27:50,147 - INFO - Applied style: Bullet 1
+2024-12-10 05:27:50,244 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 05:27:50,453 - INFO - Applied style: Bullet 1
+2024-12-10 05:27:50,512 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:50,586 - WARNING - Failed to apply ('Bold', 'Italic') formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:50,667 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:50,744 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 05:27:50,977 - DEBUG - Applying blockquote style: Blockquote 1
+2024-12-10 05:27:51,031 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 05:27:51,342 - INFO - Applied style: Numbered 1
+2024-12-10 05:27:51,366 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 05:27:51,682 - INFO - Applied style: Body 1
+2024-12-10 05:27:51,799 - WARNING - Failed to apply ('Code',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Item with specified name does not exist.', 'wdmain11.chm', 25314, -2146822454), None)
+2024-12-10 05:27:51,804 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 05:27:52,040 - INFO - Applied style: Heading 2
+2024-12-10 05:27:52,065 - DEBUG - Added paragraph with style heading: Heading 2: This is an Example of Heading 2...
+2024-12-10 05:27:52,247 - INFO - Applied style: Body 2
+2024-12-10 05:27:52,268 - DEBUG - Added paragraph with style body: This is an example of Body 2 text provided to ensu...
+2024-12-10 05:27:52,574 - INFO - Applied style: Bullet 2
+2024-12-10 05:27:52,628 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:52,649 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:52,651 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 05:27:52,772 - INFO - Applied style: Bullet 2
+2024-12-10 05:27:52,819 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 05:27:52,947 - INFO - Applied style: Bullet 2
+2024-12-10 05:27:52,995 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:53,010 - WARNING - Failed to apply ('Bold', 'Italic') formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:53,030 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:53,056 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 05:27:53,157 - DEBUG - Applying blockquote style: Blockquote 2
+2024-12-10 05:27:53,185 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 05:27:53,305 - INFO - Applied style: Numbered 2
+2024-12-10 05:27:53,319 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 05:27:53,438 - INFO - Applied style: Body 2
+2024-12-10 05:27:53,493 - WARNING - Failed to apply ('Code',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Item with specified name does not exist.', 'wdmain11.chm', 25314, -2146822454), None)
+2024-12-10 05:27:53,495 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 05:27:53,604 - INFO - Applied style: Heading 3
+2024-12-10 05:27:53,619 - DEBUG - Added paragraph with style heading: Heading 3: This is an Example of Heading 3...
+2024-12-10 05:27:53,760 - INFO - Applied style: Body 3
+2024-12-10 05:27:53,778 - DEBUG - Added paragraph with style body: This is an example of Body 3 text provided to ensu...
+2024-12-10 05:27:54,092 - INFO - Applied style: Bullet 3
+2024-12-10 05:27:54,131 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:54,143 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:54,159 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 05:27:54,292 - INFO - Applied style: Bullet 3
+2024-12-10 05:27:54,350 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 05:27:54,545 - INFO - Applied style: Bullet 3
+2024-12-10 05:27:54,613 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:54,643 - WARNING - Failed to apply ('Bold', 'Italic') formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:54,705 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:54,743 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 05:27:54,814 - DEBUG - Applying blockquote style: Blockquote 3
+2024-12-10 05:27:54,849 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 05:27:54,942 - INFO - Applied style: Numbered 3
+2024-12-10 05:27:54,965 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 05:27:55,152 - INFO - Applied style: Heading 4
+2024-12-10 05:27:55,177 - DEBUG - Added paragraph with style heading: Heading 4: This is an Example of Heading 4...
+2024-12-10 05:27:55,342 - INFO - Applied style: Body 4
+2024-12-10 05:27:55,354 - DEBUG - Added paragraph with style body: This is an example of Body 4 text provided to ensu...
+2024-12-10 05:27:55,455 - INFO - Applied style: Bullet 4
+2024-12-10 05:27:55,523 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:55,554 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:55,558 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 05:27:55,744 - INFO - Applied style: Bullet 4
+2024-12-10 05:27:55,790 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 05:27:55,879 - INFO - Applied style: Bullet 4
+2024-12-10 05:27:55,910 - WARNING - Failed to apply ('Italic',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:55,928 - WARNING - Failed to apply ('Bold', 'Italic') formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:55,939 - WARNING - Failed to apply ('Bold',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:27:55,960 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 05:27:56,079 - DEBUG - Applying blockquote style: Blockquote 4
+2024-12-10 05:27:56,128 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 05:27:56,273 - INFO - Applied style: Numbered 4
+2024-12-10 05:27:56,290 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 05:27:56,461 - INFO - Applied style: Body 4
+2024-12-10 05:27:56,535 - WARNING - Failed to apply ('Code',) formatting: (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Item with specified name does not exist.', 'wdmain11.chm', 25314, -2146822454), None)
+2024-12-10 05:27:56,546 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 05:27:56,728 - INFO - Document saved successfully to C:\Users\jlawrence\Documents\Markdown_Verter_Output\20241210_052746_Test Markdown Code for Conversion using VBA.docx
+2024-12-10 05:59:42,279 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-10 05:59:42,279 - DEBUG - StyleManager initialized
+2024-12-10 05:59:46,598 - INFO - Word application initialized successfully
+2024-12-10 05:59:46,598 - INFO - Converting C:\Users\jlawrence\OneDrive - Photronics\Documents\IT Securtiy\Policy Management\Output\Test Markdown Code for Conversion using VBA.md using template C:\Users\jlawrence\OneDrive - Photronics\Documents\Custom Office Templates\Empty Template WITH Style.dotm
+2024-12-10 05:59:46,599 - INFO - Creating document from template: C:\Users\jlawrence\OneDrive - Photronics\Documents\Custom Office Templates\Empty Template WITH Style.dotm
+2024-12-10 05:59:46,599 - INFO - Template verified: C:\Users\jlawrence\OneDrive - Photronics\Documents\Custom Office Templates\Empty Template WITH Style.dotm
+2024-12-10 05:59:46,867 - WARNING - Failed to attach template, trying direct creation: Add.set_AttachedTemplate
+2024-12-10 05:59:47,808 - INFO - Document created successfully
+2024-12-10 05:59:48,503 - DEBUG - Generated style name: Body 0 for body level 0
+2024-12-10 05:59:48,625 - INFO - Applied style: Body 0
+2024-12-10 05:59:48,676 - DEBUG - Added paragraph with style body: Markdown Code Conversion using VBA...
+2024-12-10 05:59:48,988 - DEBUG - Generated style name: Body 0 for body level 0
+2024-12-10 05:59:49,097 - INFO - Applied style: Body 0
+2024-12-10 05:59:49,140 - DEBUG - Added paragraph with style body: ==================================...
+2024-12-10 05:59:49,430 - DEBUG - Generated style name: Heading 1 for heading level 1
+2024-12-10 05:59:49,508 - INFO - Applied style: Heading 1
+2024-12-10 05:59:49,537 - DEBUG - Added paragraph with style heading: Heading 1: This is an Example of Heading 1...
+2024-12-10 05:59:49,855 - DEBUG - Generated style name: Body 1 for body level 1
+2024-12-10 05:59:49,935 - INFO - Applied style: Body 1
+2024-12-10 05:59:49,972 - DEBUG - Added paragraph with style body: This is an example of Body13 text provided to ensu...
+2024-12-10 05:59:50,239 - DEBUG - Generated style name: Bullet 1 for bullet level 1
+2024-12-10 05:59:50,311 - INFO - Applied style: Bullet 1
+2024-12-10 05:59:50,400 - WARNING - Failed to apply italic formatting to 'Bold Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:50,431 - WARNING - Failed to apply bold formatting to 'Bold Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:50,434 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 05:59:50,634 - DEBUG - Generated style name: Bullet 1 for bullet level 1
+2024-12-10 05:59:50,672 - INFO - Applied style: Bullet 1
+2024-12-10 05:59:50,747 - DEBUG - Applied italic to: Italic Item
+2024-12-10 05:59:50,749 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 05:59:50,848 - DEBUG - Generated style name: Bullet 1 for bullet level 1
+2024-12-10 05:59:50,921 - INFO - Applied style: Bullet 1
+2024-12-10 05:59:50,969 - WARNING - Failed to apply italic formatting to 'Bold and Italic Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:50,984 - WARNING - Failed to apply bold formatting to 'Bold and Italic Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:50,999 - WARNING - Failed to apply bold-italic formatting to 'Bold and Italic Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:51,001 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 05:59:51,137 - DEBUG - Generated style name: Blockquote 1 for blockquote level 1
+2024-12-10 05:59:51,172 - INFO - Applied style: Blockquote 1
+2024-12-10 05:59:51,184 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 05:59:51,279 - DEBUG - Generated style name: Numbered 1 for numbered level 1
+2024-12-10 05:59:51,322 - INFO - Applied style: Numbered 1
+2024-12-10 05:59:51,341 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 05:59:51,495 - DEBUG - Generated style name: Body 1 for body level 1
+2024-12-10 05:59:51,545 - INFO - Applied style: Body 1
+2024-12-10 05:59:51,697 - DEBUG - Applied code formatting to: Inline Code
+2024-12-10 05:59:51,702 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 05:59:51,876 - DEBUG - Generated style name: Heading 2 for heading level 2
+2024-12-10 05:59:51,940 - INFO - Applied style: Heading 2
+2024-12-10 05:59:51,959 - DEBUG - Added paragraph with style heading: Heading 2: This is an Example of Heading 2...
+2024-12-10 05:59:52,103 - DEBUG - Generated style name: Body 2 for body level 2
+2024-12-10 05:59:52,147 - INFO - Applied style: Body 2
+2024-12-10 05:59:52,166 - DEBUG - Added paragraph with style body: This is an example of Body 2 text provided to ensu...
+2024-12-10 05:59:52,308 - DEBUG - Generated style name: Bullet 2 for bullet level 2
+2024-12-10 05:59:52,352 - INFO - Applied style: Bullet 2
+2024-12-10 05:59:52,425 - WARNING - Failed to apply italic formatting to 'Bold Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:52,450 - WARNING - Failed to apply bold formatting to 'Bold Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:52,453 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 05:59:52,550 - DEBUG - Generated style name: Bullet 2 for bullet level 2
+2024-12-10 05:59:52,580 - INFO - Applied style: Bullet 2
+2024-12-10 05:59:52,652 - DEBUG - Applied italic to: Italic Item
+2024-12-10 05:59:52,655 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 05:59:52,748 - DEBUG - Generated style name: Bullet 2 for bullet level 2
+2024-12-10 05:59:52,779 - INFO - Applied style: Bullet 2
+2024-12-10 05:59:52,823 - WARNING - Failed to apply italic formatting to 'Bold and Italic Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:52,969 - WARNING - Failed to apply bold formatting to 'Bold and Italic Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:53,038 - WARNING - Failed to apply bold-italic formatting to 'Bold and Italic Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:53,041 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 05:59:53,329 - DEBUG - Generated style name: Blockquote 2 for blockquote level 2
+2024-12-10 05:59:53,371 - INFO - Applied style: Blockquote 2
+2024-12-10 05:59:53,402 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 05:59:53,560 - DEBUG - Generated style name: Numbered 2 for numbered level 2
+2024-12-10 05:59:53,602 - INFO - Applied style: Numbered 2
+2024-12-10 05:59:53,626 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 05:59:53,778 - DEBUG - Generated style name: Body 2 for body level 2
+2024-12-10 05:59:53,818 - INFO - Applied style: Body 2
+2024-12-10 05:59:53,964 - DEBUG - Applied code formatting to: Inline Code
+2024-12-10 05:59:53,968 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 05:59:54,118 - DEBUG - Generated style name: Heading 3 for heading level 3
+2024-12-10 05:59:54,159 - INFO - Applied style: Heading 3
+2024-12-10 05:59:54,182 - DEBUG - Added paragraph with style heading: Heading 3: This is an Example of Heading 3...
+2024-12-10 05:59:54,378 - DEBUG - Generated style name: Body 3 for body level 3
+2024-12-10 05:59:54,422 - INFO - Applied style: Body 3
+2024-12-10 05:59:54,444 - DEBUG - Added paragraph with style body: This is an example of Body 3 text provided to ensu...
+2024-12-10 05:59:54,590 - DEBUG - Generated style name: Bullet 3 for bullet level 3
+2024-12-10 05:59:54,623 - INFO - Applied style: Bullet 3
+2024-12-10 05:59:54,706 - WARNING - Failed to apply italic formatting to 'Bold Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:54,738 - WARNING - Failed to apply bold formatting to 'Bold Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:54,741 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 05:59:54,891 - DEBUG - Generated style name: Bullet 3 for bullet level 3
+2024-12-10 05:59:54,940 - INFO - Applied style: Bullet 3
+2024-12-10 05:59:55,072 - DEBUG - Applied italic to: Italic Item
+2024-12-10 05:59:55,076 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 05:59:55,235 - DEBUG - Generated style name: Bullet 3 for bullet level 3
+2024-12-10 05:59:55,277 - INFO - Applied style: Bullet 3
+2024-12-10 05:59:55,352 - WARNING - Failed to apply italic formatting to 'Bold and Italic Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:55,379 - WARNING - Failed to apply bold formatting to 'Bold and Italic Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:55,404 - WARNING - Failed to apply bold-italic formatting to 'Bold and Italic Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:55,407 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 05:59:55,527 - DEBUG - Generated style name: Blockquote 3 for blockquote level 3
+2024-12-10 05:59:55,564 - INFO - Applied style: Blockquote 3
+2024-12-10 05:59:55,582 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 05:59:55,685 - DEBUG - Generated style name: Numbered 3 for numbered level 3
+2024-12-10 05:59:55,722 - INFO - Applied style: Numbered 3
+2024-12-10 05:59:55,745 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 05:59:55,883 - DEBUG - Generated style name: Heading 4 for heading level 4
+2024-12-10 05:59:55,929 - INFO - Applied style: Heading 4
+2024-12-10 05:59:55,957 - DEBUG - Added paragraph with style heading: Heading 4: This is an Example of Heading 4...
+2024-12-10 05:59:56,108 - DEBUG - Generated style name: Body 4 for body level 4
+2024-12-10 05:59:56,149 - INFO - Applied style: Body 4
+2024-12-10 05:59:56,176 - DEBUG - Added paragraph with style body: This is an example of Body 4 text provided to ensu...
+2024-12-10 05:59:56,355 - DEBUG - Generated style name: Bullet 4 for bullet level 4
+2024-12-10 05:59:56,395 - INFO - Applied style: Bullet 4
+2024-12-10 05:59:56,457 - WARNING - Failed to apply italic formatting to 'Bold Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:56,488 - WARNING - Failed to apply bold formatting to 'Bold Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:56,490 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 05:59:56,599 - DEBUG - Generated style name: Bullet 4 for bullet level 4
+2024-12-10 05:59:56,672 - INFO - Applied style: Bullet 4
+2024-12-10 05:59:56,864 - DEBUG - Applied italic to: Italic Item
+2024-12-10 05:59:56,872 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 05:59:57,103 - DEBUG - Generated style name: Bullet 4 for bullet level 4
+2024-12-10 05:59:57,164 - INFO - Applied style: Bullet 4
+2024-12-10 05:59:57,239 - WARNING - Failed to apply italic formatting to 'Bold and Italic Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:57,264 - WARNING - Failed to apply bold formatting to 'Bold and Italic Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:57,284 - WARNING - Failed to apply bold-italic formatting to 'Bold and Italic Item': (-2147352567, 'Exception occurred.', (0, 'Microsoft Word', 'Value out of range', 'wdmain11.chm', 37376, -2146823680), None)
+2024-12-10 05:59:57,288 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 05:59:57,430 - DEBUG - Generated style name: Blockquote 4 for blockquote level 4
+2024-12-10 05:59:57,475 - INFO - Applied style: Blockquote 4
+2024-12-10 05:59:57,516 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 05:59:57,702 - DEBUG - Generated style name: Numbered 4 for numbered level 4
+2024-12-10 05:59:57,768 - INFO - Applied style: Numbered 4
+2024-12-10 05:59:57,804 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 05:59:57,961 - DEBUG - Generated style name: Body 4 for body level 4
+2024-12-10 05:59:58,006 - INFO - Applied style: Body 4
+2024-12-10 05:59:58,174 - DEBUG - Applied code formatting to: Inline Code
+2024-12-10 05:59:58,179 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 05:59:58,380 - INFO - Document saved successfully to C:\Users\jlawrence\Documents\Markdown_Verter_Output\20241210_055947_Test Markdown Code for Conversion using VBA.docx
+2024-12-10 06:08:54,265 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-10 06:08:54,266 - DEBUG - StyleManager initialized
+2024-12-10 06:08:58,589 - INFO - Word application initialized successfully
+2024-12-10 06:08:58,589 - INFO - Converting C:\Users\jlawrence\Documents\Markdown\Test Markdown Code for Conversion using VBA.md using template C:\Users\jlawrence\Documents\Markdown\Template\Photronics_Governance_Template_Python_Gold_Backup.dotm
+2024-12-10 06:08:58,589 - INFO - Creating document from template: C:\Users\jlawrence\Documents\Markdown\Template\Photronics_Governance_Template_Python_Gold_Backup.dotm
+2024-12-10 06:08:58,590 - INFO - Template verified: C:\Users\jlawrence\Documents\Markdown\Template\Photronics_Governance_Template_Python_Gold_Backup.dotm
+2024-12-10 06:08:58,882 - WARNING - Failed to attach template, trying direct creation: Add.set_AttachedTemplate
+2024-12-10 06:08:59,969 - INFO - Document created successfully
+2024-12-10 06:09:00,750 - DEBUG - Generated style name: Body 0 for body level 0
+2024-12-10 06:09:00,949 - INFO - Applied style: Body 0
+2024-12-10 06:09:00,950 - ERROR - Failed to add paragraph: 'TextFormatter' object has no attribute 'apply_character_formatting'
+2024-12-10 06:09:00,950 - ERROR - Failed to process line: 'TextFormatter' object has no attribute 'apply_character_formatting'
+2024-12-10 06:09:00,950 - ERROR - Failed to process content: 'TextFormatter' object has no attribute 'apply_character_formatting'
+2024-12-10 06:09:00,951 - ERROR - Failed to process markdown file: 'TextFormatter' object has no attribute 'apply_character_formatting'
+2024-12-10 06:09:00,951 - ERROR - Conversion failed: 'TextFormatter' object has no attribute 'apply_character_formatting'
+2024-12-10 06:09:15,055 - ERROR - Error during conversion: 'TextFormatter' object has no attribute 'apply_character_formatting'
+Traceback (most recent call last):
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\main.py", line 88, in main
+    output_file = converter.convert(template_path, markdown_path, output_dir)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 126, in convert
+    self.process_markdown_file(self.doc, markdown_path)
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\converter.py", line 147, in process_markdown_file
+    self.text_formatter.process_content(doc, content, self.style_manager)
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\formatters.py", line 79, in process_content
+    self.process_line(doc, line, style_manager)
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\formatters.py", line 107, in process_line
+    self.add_paragraph(doc, text, style_type, style_manager)
+  File "C:\Users\jlawrence\OneDrive - Photronics\Source\Python\markdown_to_word\src\formatters.py", line 45, in add_paragraph
+    self.apply_character_formatting(paragraph.Range, text)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TextFormatter' object has no attribute 'apply_character_formatting'
+2024-12-10 06:11:34,076 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-10 06:11:34,077 - DEBUG - StyleManager initialized
+2024-12-10 06:11:38,489 - INFO - Word application initialized successfully
+2024-12-10 06:11:38,489 - INFO - Converting C:\Users\jlawrence\Documents\Markdown\Test Markdown Code for Conversion using VBA.md using template C:\Users\jlawrence\Documents\Markdown\Template\Empty Template WITH Style.dotm
+2024-12-10 06:11:38,490 - INFO - Creating document from template: C:\Users\jlawrence\Documents\Markdown\Template\Empty Template WITH Style.dotm
+2024-12-10 06:11:38,490 - INFO - Template verified: C:\Users\jlawrence\Documents\Markdown\Template\Empty Template WITH Style.dotm
+2024-12-10 06:11:38,808 - WARNING - Failed to attach template, trying direct creation: Add.set_AttachedTemplate
+2024-12-10 06:11:39,725 - INFO - Document created successfully
+2024-12-10 06:11:40,387 - DEBUG - Generated style name: Body 0 for body level 0
+2024-12-10 06:11:40,562 - INFO - Applied style: Body 0
+2024-12-10 06:11:40,609 - DEBUG - Added paragraph with style body: Markdown Code Conversion using VBA...
+2024-12-10 06:11:40,938 - DEBUG - Generated style name: Body 0 for body level 0
+2024-12-10 06:11:40,996 - INFO - Applied style: Body 0
+2024-12-10 06:11:41,052 - DEBUG - Added paragraph with style body: ==================================...
+2024-12-10 06:11:41,286 - DEBUG - Generated style name: Heading 1 for heading level 1
+2024-12-10 06:11:41,333 - INFO - Applied style: Heading 1
+2024-12-10 06:11:41,364 - DEBUG - Added paragraph with style heading: Heading 1: This is an Example of Heading 1...
+2024-12-10 06:11:41,688 - DEBUG - Generated style name: Body 1 for body level 1
+2024-12-10 06:11:41,763 - INFO - Applied style: Body 1
+2024-12-10 06:11:41,807 - DEBUG - Added paragraph with style body: This is an example of Body13 text provided to ensu...
+2024-12-10 06:11:42,113 - DEBUG - Generated style name: Bullet 1 for bullet level 1
+2024-12-10 06:11:42,196 - INFO - Applied style: Bullet 1
+2024-12-10 06:11:42,429 - DEBUG - Applied bold to: Bold Item
+2024-12-10 06:11:42,626 - DEBUG - Applied italic to: Bold Item
+2024-12-10 06:11:42,635 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 06:11:42,862 - DEBUG - Generated style name: Bullet 1 for bullet level 1
+2024-12-10 06:11:42,905 - INFO - Applied style: Bullet 1
+2024-12-10 06:11:43,076 - DEBUG - Applied italic to: Italic Item
+2024-12-10 06:11:43,082 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 06:11:43,359 - DEBUG - Generated style name: Bullet 1 for bullet level 1
+2024-12-10 06:11:43,488 - INFO - Applied style: Bullet 1
+2024-12-10 06:11:43,820 - DEBUG - Applied bold-italic to: Bold and Italic Item
+2024-12-10 06:11:43,952 - DEBUG - Applied bold to: Bold and Italic Item
+2024-12-10 06:11:44,111 - DEBUG - Applied italic to: Bold and Italic Item
+2024-12-10 06:11:44,118 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 06:11:44,383 - DEBUG - Generated style name: Blockquote 1 for blockquote level 1
+2024-12-10 06:11:44,462 - INFO - Applied style: Blockquote 1
+2024-12-10 06:11:44,508 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 06:11:44,778 - DEBUG - Generated style name: Numbered 1 for numbered level 1
+2024-12-10 06:11:44,848 - INFO - Applied style: Numbered 1
+2024-12-10 06:11:44,891 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 06:11:45,067 - DEBUG - Generated style name: Body 1 for body level 1
+2024-12-10 06:11:45,093 - INFO - Applied style: Body 1
+2024-12-10 06:11:45,276 - DEBUG - Applied code formatting to: Inline Code
+2024-12-10 06:11:45,278 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 06:11:45,391 - DEBUG - Generated style name: Heading 2 for heading level 2
+2024-12-10 06:11:45,421 - INFO - Applied style: Heading 2
+2024-12-10 06:11:45,439 - DEBUG - Added paragraph with style heading: Heading 2: This is an Example of Heading 2...
+2024-12-10 06:11:45,607 - DEBUG - Generated style name: Body 2 for body level 2
+2024-12-10 06:11:45,634 - INFO - Applied style: Body 2
+2024-12-10 06:11:45,650 - DEBUG - Added paragraph with style body: This is an example of Body 2 text provided to ensu...
+2024-12-10 06:11:45,778 - DEBUG - Generated style name: Bullet 2 for bullet level 2
+2024-12-10 06:11:45,810 - INFO - Applied style: Bullet 2
+2024-12-10 06:11:45,888 - DEBUG - Applied bold to: Bold Item
+2024-12-10 06:11:45,935 - DEBUG - Applied italic to: Bold Item
+2024-12-10 06:11:45,938 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 06:11:46,049 - DEBUG - Generated style name: Bullet 2 for bullet level 2
+2024-12-10 06:11:46,075 - INFO - Applied style: Bullet 2
+2024-12-10 06:11:46,152 - DEBUG - Applied italic to: Italic Item
+2024-12-10 06:11:46,155 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 06:11:46,250 - DEBUG - Generated style name: Bullet 2 for bullet level 2
+2024-12-10 06:11:46,278 - INFO - Applied style: Bullet 2
+2024-12-10 06:11:46,834 - DEBUG - Applied bold-italic to: Bold and Italic Item
+2024-12-10 06:11:46,941 - DEBUG - Applied bold to: Bold and Italic Item
+2024-12-10 06:11:47,041 - DEBUG - Applied italic to: Bold and Italic Item
+2024-12-10 06:11:47,047 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 06:11:47,240 - DEBUG - Generated style name: Blockquote 2 for blockquote level 2
+2024-12-10 06:11:47,292 - INFO - Applied style: Blockquote 2
+2024-12-10 06:11:47,322 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 06:11:47,522 - DEBUG - Generated style name: Numbered 2 for numbered level 2
+2024-12-10 06:11:47,580 - INFO - Applied style: Numbered 2
+2024-12-10 06:11:47,622 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 06:11:47,821 - DEBUG - Generated style name: Body 2 for body level 2
+2024-12-10 06:11:47,893 - INFO - Applied style: Body 2
+2024-12-10 06:11:48,135 - DEBUG - Applied code formatting to: Inline Code
+2024-12-10 06:11:48,146 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 06:11:48,310 - DEBUG - Generated style name: Heading 3 for heading level 3
+2024-12-10 06:11:48,359 - INFO - Applied style: Heading 3
+2024-12-10 06:11:48,388 - DEBUG - Added paragraph with style heading: Heading 3: This is an Example of Heading 3...
+2024-12-10 06:11:48,573 - DEBUG - Generated style name: Body 3 for body level 3
+2024-12-10 06:11:48,623 - INFO - Applied style: Body 3
+2024-12-10 06:11:48,671 - DEBUG - Added paragraph with style body: This is an example of Body 3 text provided to ensu...
+2024-12-10 06:11:48,862 - DEBUG - Generated style name: Bullet 3 for bullet level 3
+2024-12-10 06:11:48,930 - INFO - Applied style: Bullet 3
+2024-12-10 06:11:49,068 - DEBUG - Applied bold to: Bold Item
+2024-12-10 06:11:49,159 - DEBUG - Applied italic to: Bold Item
+2024-12-10 06:11:49,164 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 06:11:49,350 - DEBUG - Generated style name: Bullet 3 for bullet level 3
+2024-12-10 06:11:49,401 - INFO - Applied style: Bullet 3
+2024-12-10 06:11:49,527 - DEBUG - Applied italic to: Italic Item
+2024-12-10 06:11:49,532 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 06:11:49,715 - DEBUG - Generated style name: Bullet 3 for bullet level 3
+2024-12-10 06:11:49,766 - INFO - Applied style: Bullet 3
+2024-12-10 06:11:49,942 - DEBUG - Applied bold-italic to: Bold and Italic Item
+2024-12-10 06:11:50,027 - DEBUG - Applied bold to: Bold and Italic Item
+2024-12-10 06:11:50,111 - DEBUG - Applied italic to: Bold and Italic Item
+2024-12-10 06:11:50,116 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 06:11:50,275 - DEBUG - Generated style name: Blockquote 3 for blockquote level 3
+2024-12-10 06:11:50,325 - INFO - Applied style: Blockquote 3
+2024-12-10 06:11:50,353 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 06:11:50,526 - DEBUG - Generated style name: Numbered 3 for numbered level 3
+2024-12-10 06:11:50,581 - INFO - Applied style: Numbered 3
+2024-12-10 06:11:50,609 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 06:11:50,805 - DEBUG - Generated style name: Heading 4 for heading level 4
+2024-12-10 06:11:50,867 - INFO - Applied style: Heading 4
+2024-12-10 06:11:50,895 - DEBUG - Added paragraph with style heading: Heading 4: This is an Example of Heading 4...
+2024-12-10 06:11:51,079 - DEBUG - Generated style name: Body 4 for body level 4
+2024-12-10 06:11:51,127 - INFO - Applied style: Body 4
+2024-12-10 06:11:51,155 - DEBUG - Added paragraph with style body: This is an example of Body 4 text provided to ensu...
+2024-12-10 06:11:51,325 - DEBUG - Generated style name: Bullet 4 for bullet level 4
+2024-12-10 06:11:51,371 - INFO - Applied style: Bullet 4
+2024-12-10 06:11:51,505 - DEBUG - Applied bold to: Bold Item
+2024-12-10 06:11:51,589 - DEBUG - Applied italic to: Bold Item
+2024-12-10 06:11:51,593 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 06:11:51,775 - DEBUG - Generated style name: Bullet 4 for bullet level 4
+2024-12-10 06:11:51,826 - INFO - Applied style: Bullet 4
+2024-12-10 06:11:51,969 - DEBUG - Applied italic to: Italic Item
+2024-12-10 06:11:51,974 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 06:11:52,179 - DEBUG - Generated style name: Bullet 4 for bullet level 4
+2024-12-10 06:11:52,231 - INFO - Applied style: Bullet 4
+2024-12-10 06:11:52,389 - DEBUG - Applied bold-italic to: Bold and Italic Item
+2024-12-10 06:11:52,486 - DEBUG - Applied bold to: Bold and Italic Item
+2024-12-10 06:11:52,568 - DEBUG - Applied italic to: Bold and Italic Item
+2024-12-10 06:11:52,573 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 06:11:52,741 - DEBUG - Generated style name: Blockquote 4 for blockquote level 4
+2024-12-10 06:11:52,799 - INFO - Applied style: Blockquote 4
+2024-12-10 06:11:52,829 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 06:11:53,001 - DEBUG - Generated style name: Numbered 4 for numbered level 4
+2024-12-10 06:11:53,049 - INFO - Applied style: Numbered 4
+2024-12-10 06:11:53,084 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 06:11:53,260 - DEBUG - Generated style name: Body 4 for body level 4
+2024-12-10 06:11:53,310 - INFO - Applied style: Body 4
+2024-12-10 06:11:53,563 - DEBUG - Applied code formatting to: Inline Code
+2024-12-10 06:11:53,571 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 06:11:53,771 - INFO - Document saved successfully to C:\Users\jlawrence\Documents\Markdown_Verter_Output\20241210_061139_Test Markdown Code for Conversion using VBA.docx
+2024-12-10 06:25:12,045 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-10 06:25:12,046 - DEBUG - StyleManager initialized
+2024-12-10 06:25:16,384 - INFO - Word application initialized successfully
+2024-12-10 06:25:16,384 - INFO - Converting C:\Users\jlawrence\Documents\Markdown\Test Markdown Code_v2.0.md using template C:\Users\jlawrence\Documents\Markdown\Template\Empty Template WITH Style.dotm
+2024-12-10 06:25:16,385 - INFO - Creating document from template: C:\Users\jlawrence\Documents\Markdown\Template\Empty Template WITH Style.dotm
+2024-12-10 06:25:16,386 - INFO - Template verified: C:\Users\jlawrence\Documents\Markdown\Template\Empty Template WITH Style.dotm
+2024-12-10 06:25:16,661 - WARNING - Failed to attach template, trying direct creation: Add.set_AttachedTemplate
+2024-12-10 06:25:17,104 - INFO - Document created successfully
+2024-12-10 06:25:17,472 - DEBUG - Generated style name: Body 0 for body level 0
+2024-12-10 06:25:17,723 - INFO - Applied style: Body 0
+2024-12-10 06:25:17,791 - DEBUG - Added paragraph with style body: Markdown Code Conversion using VBA...
+2024-12-10 06:25:18,146 - DEBUG - Generated style name: Body 0 for body level 0
+2024-12-10 06:25:18,241 - INFO - Applied style: Body 0
+2024-12-10 06:25:18,290 - DEBUG - Added paragraph with style body: ==================================...
+2024-12-10 06:25:18,635 - DEBUG - Generated style name: Heading 1 for heading level 1
+2024-12-10 06:25:18,724 - INFO - Applied style: Heading 1
+2024-12-10 06:25:18,780 - DEBUG - Added paragraph with style heading: Heading 1: This is an Example of Heading 1...
+2024-12-10 06:25:19,077 - DEBUG - Generated style name: Body 1 for body level 1
+2024-12-10 06:25:19,146 - INFO - Applied style: Body 1
+2024-12-10 06:25:19,210 - DEBUG - Added paragraph with style body: This is an example of Body13 text provided to ensu...
+2024-12-10 06:25:19,588 - DEBUG - Generated style name: Bullet 1 for bullet level 1
+2024-12-10 06:25:19,669 - INFO - Applied style: Bullet 1
+2024-12-10 06:25:19,891 - DEBUG - Applied bold to: Bold Item
+2024-12-10 06:25:20,020 - DEBUG - Applied italic to: Bold Item
+2024-12-10 06:25:20,027 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 06:25:20,280 - DEBUG - Generated style name: Bullet 1 for bullet level 1
+2024-12-10 06:25:20,348 - INFO - Applied style: Bullet 1
+2024-12-10 06:25:20,487 - DEBUG - Applied italic to: Italic Item
+2024-12-10 06:25:20,489 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 06:25:20,632 - DEBUG - Generated style name: Bullet 1 for bullet level 1
+2024-12-10 06:25:20,694 - INFO - Applied style: Bullet 1
+2024-12-10 06:25:20,827 - DEBUG - Applied bold-italic to: Bold and Italic Item
+2024-12-10 06:25:20,895 - DEBUG - Applied bold to: Bold and Italic Item
+2024-12-10 06:25:21,017 - DEBUG - Applied italic to: Bold and Italic Item
+2024-12-10 06:25:21,019 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 06:25:21,148 - DEBUG - Generated style name: Blockquote 1 for blockquote level 1
+2024-12-10 06:25:21,180 - INFO - Applied style: Blockquote 1
+2024-12-10 06:25:21,196 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 06:25:21,307 - DEBUG - Generated style name: Numbered 1 for numbered level 1
+2024-12-10 06:25:21,334 - INFO - Applied style: Numbered 1
+2024-12-10 06:25:21,357 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 06:25:21,456 - DEBUG - Generated style name: Body 1 for body level 1
+2024-12-10 06:25:21,482 - INFO - Applied style: Body 1
+2024-12-10 06:25:21,603 - DEBUG - Applied code formatting to: Inline Code
+2024-12-10 06:25:21,606 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 06:25:21,708 - DEBUG - Generated style name: Heading 2 for heading level 2
+2024-12-10 06:25:21,734 - INFO - Applied style: Heading 2
+2024-12-10 06:25:21,749 - DEBUG - Added paragraph with style heading: Heading 2: This is an Example of Heading 2...
+2024-12-10 06:25:21,837 - DEBUG - Generated style name: Body 2 for body level 2
+2024-12-10 06:25:21,859 - INFO - Applied style: Body 2
+2024-12-10 06:25:22,045 - DEBUG - Added paragraph with style body: This is an example of Body 2...
+2024-12-10 06:25:22,448 - DEBUG - Generated style name: Numbered 2 for numbered level 2
+2024-12-10 06:25:22,495 - INFO - Applied style: Numbered 2
+2024-12-10 06:25:22,519 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 06:25:22,701 - DEBUG - Generated style name: Body 2 for body level 2
+2024-12-10 06:25:22,801 - INFO - Applied style: Body 2
+2024-12-10 06:25:23,099 - DEBUG - Applied code formatting to: Inline Code
+2024-12-10 06:25:23,105 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 06:25:23,181 - DEBUG - Generated style name: Heading 3 for heading level 3
+2024-12-10 06:25:23,203 - INFO - Applied style: Heading 3
+2024-12-10 06:25:23,224 - DEBUG - Added paragraph with style heading: Heading 3: This is an Example of Heading 3...
+2024-12-10 06:25:23,305 - DEBUG - Generated style name: Body 3 for body level 3
+2024-12-10 06:25:23,327 - INFO - Applied style: Body 3
+2024-12-10 06:25:23,343 - DEBUG - Added paragraph with style body: This is an example of Body 3...
+2024-12-10 06:25:23,424 - DEBUG - Generated style name: Heading 4 for heading level 4
+2024-12-10 06:25:23,446 - INFO - Applied style: Heading 4
+2024-12-10 06:25:23,460 - DEBUG - Added paragraph with style heading: Heading 4: This is an Example of Heading 4...
+2024-12-10 06:25:23,549 - DEBUG - Generated style name: Body 4 for body level 4
+2024-12-10 06:25:23,575 - INFO - Applied style: Body 4
+2024-12-10 06:25:23,586 - DEBUG - Added paragraph with style body: This is an example of Body 4...
+2024-12-10 06:25:23,652 - DEBUG - Generated style name: Heading 4 for heading level 4
+2024-12-10 06:25:23,674 - INFO - Applied style: Heading 4
+2024-12-10 06:25:23,684 - DEBUG - Added paragraph with style heading: Heading 5: This is an Example of Heading 5...
+2024-12-10 06:25:23,763 - DEBUG - Generated style name: Body 4 for body level 4
+2024-12-10 06:25:23,785 - INFO - Applied style: Body 4
+2024-12-10 06:25:23,796 - DEBUG - Added paragraph with style body: This is an example of Body 5...
+2024-12-10 06:25:23,866 - DEBUG - Generated style name: Heading 4 for heading level 4
+2024-12-10 06:25:23,890 - INFO - Applied style: Heading 4
+2024-12-10 06:25:23,909 - DEBUG - Added paragraph with style heading: Heading 6: This is an Example of Heading 6...
+2024-12-10 06:25:24,011 - DEBUG - Generated style name: Body 4 for body level 4
+2024-12-10 06:25:24,040 - INFO - Applied style: Body 4
+2024-12-10 06:25:24,057 - DEBUG - Added paragraph with style body: This is an example of Body 6...
+2024-12-10 06:25:24,156 - DEBUG - Generated style name: Heading 4 for heading level 4
+2024-12-10 06:25:24,194 - INFO - Applied style: Heading 4
+2024-12-10 06:25:24,249 - DEBUG - Added paragraph with style heading: Heading 7: This is an Example of Heading 7...
+2024-12-10 06:25:24,350 - DEBUG - Generated style name: Body 4 for body level 4
+2024-12-10 06:25:24,378 - INFO - Applied style: Body 4
+2024-12-10 06:25:24,394 - DEBUG - Added paragraph with style body: This is an example of Body 7...
+2024-12-10 06:25:24,505 - DEBUG - Generated style name: Blockquote 4 for blockquote level 4
+2024-12-10 06:25:24,525 - INFO - Applied style: Blockquote 4
+2024-12-10 06:25:24,537 - DEBUG - Added paragraph with style blockquote: "Only Thing We Have to Fear Is Fear Itself"...
+2024-12-10 06:25:24,604 - DEBUG - Generated style name: Blockquote 4 for blockquote level 4
+2024-12-10 06:25:24,624 - INFO - Applied style: Blockquote 4
+2024-12-10 06:25:24,634 - DEBUG - Added paragraph with style blockquote: > Franklin D. Roosevelt...
+2024-12-10 06:25:24,697 - DEBUG - Generated style name: Heading 4 for heading level 4
+2024-12-10 06:25:24,720 - INFO - Applied style: Heading 4
+2024-12-10 06:25:24,731 - DEBUG - Added paragraph with style heading: Heading 8: This is an Example of Heading 8...
+2024-12-10 06:25:24,797 - DEBUG - Generated style name: Body 4 for body level 4
+2024-12-10 06:25:24,818 - INFO - Applied style: Body 4
+2024-12-10 06:25:24,838 - DEBUG - Added paragraph with style body: This is an example of Body 8...
+2024-12-10 06:25:24,935 - DEBUG - Generated style name: Body 4 for body level 4
+2024-12-10 06:25:24,962 - INFO - Applied style: Body 4
+2024-12-10 06:25:24,978 - DEBUG - Added paragraph with style body: `2024-12-10 06:11:52,568 - DEBUG - Applied italic ...
+2024-12-10 06:25:25,075 - DEBUG - Generated style name: Body 4 for body level 4
+2024-12-10 06:25:25,106 - INFO - Applied style: Body 4
+2024-12-10 06:25:25,222 - DEBUG - Applied bold-italic to: Bold and Italic Item
+2024-12-10 06:25:25,282 - DEBUG - Applied bold to: Bold and Italic Item
+2024-12-10 06:25:25,329 - DEBUG - Applied italic to: Bold and Italic Item
+2024-12-10 06:25:25,331 - DEBUG - Added paragraph with style body: 2024-12-10 06:11:52,573 - DEBUG - Added paragraph ...
+2024-12-10 06:25:25,435 - DEBUG - Generated style name: Body 4 for body level 4
+2024-12-10 06:25:25,462 - INFO - Applied style: Body 4
+2024-12-10 06:25:25,487 - DEBUG - Added paragraph with style body: 2024-12-10 06:11:52,741 - DEBUG - Generated style ...
+2024-12-10 06:25:25,559 - DEBUG - Generated style name: Body 4 for body level 4
+2024-12-10 06:25:25,592 - INFO - Applied style: Body 4
+2024-12-10 06:25:25,610 - DEBUG - Added paragraph with style body: 2024-12-10 06:11:52,799 - INFO - Applied style: Bl...
+2024-12-10 06:25:25,689 - DEBUG - Generated style name: Heading 4 for heading level 4
+2024-12-10 06:25:25,718 - INFO - Applied style: Heading 4
+2024-12-10 06:25:25,729 - DEBUG - Added paragraph with style heading: Heading 9: This is an Example of Heading 9...
+2024-12-10 06:25:25,798 - DEBUG - Generated style name: Body 4 for body level 4
+2024-12-10 06:25:25,818 - INFO - Applied style: Body 4
+2024-12-10 06:25:25,832 - DEBUG - Added paragraph with style body: This is an example of Body 9...
+2024-12-10 06:25:25,987 - INFO - Document saved successfully to C:\Users\jlawrence\Documents\Markdown_Verter_Output\20241210_062517_Test Markdown Code_v2.0.docx
+2024-12-10 06:30:52,483 - WARNING - Failed to load logging config, using defaults: 'detailed'
+2024-12-10 06:30:52,484 - DEBUG - StyleManager initialized
+2024-12-10 06:30:56,791 - INFO - Word application initialized successfully
+2024-12-10 06:30:56,791 - INFO - Converting C:\Users\jlawrence\Documents\Markdown\Test Markdown Code_v2.0.md using template C:\Users\jlawrence\Documents\Markdown\Template\Empty Template WITH Style.dotm
+2024-12-10 06:30:56,791 - INFO - Creating document from template: C:\Users\jlawrence\Documents\Markdown\Template\Empty Template WITH Style.dotm
+2024-12-10 06:30:56,792 - INFO - Template verified: C:\Users\jlawrence\Documents\Markdown\Template\Empty Template WITH Style.dotm
+2024-12-10 06:30:57,073 - WARNING - Failed to attach template, trying direct creation: Add.set_AttachedTemplate
+2024-12-10 06:30:57,670 - INFO - Document created successfully
+2024-12-10 06:30:58,399 - DEBUG - Generated style name: Body 0 for body level 0
+2024-12-10 06:30:58,671 - INFO - Applied style: Body 0
+2024-12-10 06:30:58,776 - DEBUG - Added paragraph with style body: Markdown Code Conversion using VBA...
+2024-12-10 06:30:59,260 - DEBUG - Generated style name: Body 0 for body level 0
+2024-12-10 06:30:59,344 - INFO - Applied style: Body 0
+2024-12-10 06:30:59,392 - DEBUG - Added paragraph with style body: ==================================...
+2024-12-10 06:30:59,926 - DEBUG - Generated style name: Heading 1 for heading level 1
+2024-12-10 06:31:00,050 - INFO - Applied style: Heading 1
+2024-12-10 06:31:00,143 - DEBUG - Added paragraph with style heading: Heading 1: This is an Example of Heading 1...
+2024-12-10 06:31:00,739 - DEBUG - Generated style name: Body 1 for body level 1
+2024-12-10 06:31:00,864 - INFO - Applied style: Body 1
+2024-12-10 06:31:00,934 - DEBUG - Added paragraph with style body: This is an example of Body13 text provided to ensu...
+2024-12-10 06:31:01,315 - DEBUG - Generated style name: Bullet 1 for bullet level 1
+2024-12-10 06:31:01,414 - INFO - Applied style: Bullet 1
+2024-12-10 06:31:01,740 - DEBUG - Applied bold to: Bold Item
+2024-12-10 06:31:01,913 - DEBUG - Applied italic to: Bold Item
+2024-12-10 06:31:01,919 - DEBUG - Added paragraph with style bullet: **Bold Item**...
+2024-12-10 06:31:02,306 - DEBUG - Generated style name: Bullet 1 for bullet level 1
+2024-12-10 06:31:02,421 - INFO - Applied style: Bullet 1
+2024-12-10 06:31:02,842 - DEBUG - Applied italic to: Italic Item
+2024-12-10 06:31:02,856 - DEBUG - Added paragraph with style bullet: *Italic Item*...
+2024-12-10 06:31:03,235 - DEBUG - Generated style name: Bullet 1 for bullet level 1
+2024-12-10 06:31:03,331 - INFO - Applied style: Bullet 1
+2024-12-10 06:31:03,602 - DEBUG - Applied bold-italic to: Bold and Italic Item
+2024-12-10 06:31:03,712 - DEBUG - Applied bold to: Bold and Italic Item
+2024-12-10 06:31:03,800 - DEBUG - Applied italic to: Bold and Italic Item
+2024-12-10 06:31:03,806 - DEBUG - Added paragraph with style bullet: ***Bold and Italic Item***...
+2024-12-10 06:31:03,974 - DEBUG - Generated style name: Blockquote 1 for blockquote level 1
+2024-12-10 06:31:04,002 - INFO - Applied style: Blockquote 1
+2024-12-10 06:31:04,049 - DEBUG - Added paragraph with style blockquote: Blockquote...
+2024-12-10 06:31:04,206 - DEBUG - Generated style name: Numbered 1 for numbered level 1
+2024-12-10 06:31:04,274 - INFO - Applied style: Numbered 1
+2024-12-10 06:31:04,303 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 06:31:04,430 - DEBUG - Generated style name: Body 1 for body level 1
+2024-12-10 06:31:04,463 - INFO - Applied style: Body 1
+2024-12-10 06:31:04,637 - DEBUG - Applied code formatting to: Inline Code
+2024-12-10 06:31:04,640 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 06:31:04,782 - DEBUG - Generated style name: Heading 2 for heading level 2
+2024-12-10 06:31:04,812 - INFO - Applied style: Heading 2
+2024-12-10 06:31:04,830 - DEBUG - Added paragraph with style heading: Heading 2: This is an Example of Heading 2...
+2024-12-10 06:31:05,232 - DEBUG - Generated style name: Body 2 for body level 2
+2024-12-10 06:31:05,430 - INFO - Applied style: Body 2
+2024-12-10 06:31:05,469 - DEBUG - Added paragraph with style body: This is an example of Body 2...
+2024-12-10 06:31:05,684 - DEBUG - Generated style name: Numbered 2 for numbered level 2
+2024-12-10 06:31:05,738 - INFO - Applied style: Numbered 2
+2024-12-10 06:31:05,782 - DEBUG - Added paragraph with style numbered: Ordered List Item...
+2024-12-10 06:31:05,960 - DEBUG - Generated style name: Body 2 for body level 2
+2024-12-10 06:31:06,022 - INFO - Applied style: Body 2
+2024-12-10 06:31:06,320 - DEBUG - Applied code formatting to: Inline Code
+2024-12-10 06:31:06,337 - DEBUG - Added paragraph with style body: `Inline Code`...
+2024-12-10 06:31:06,551 - DEBUG - Generated style name: Heading 3 for heading level 3
+2024-12-10 06:31:06,603 - INFO - Applied style: Heading 3
+2024-12-10 06:31:06,633 - DEBUG - Added paragraph with style heading: Heading 3: This is an Example of Heading 3...
+2024-12-10 06:31:06,831 - DEBUG - Generated style name: Body 3 for body level 3
+2024-12-10 06:31:06,883 - INFO - Applied style: Body 3
+2024-12-10 06:31:06,912 - DEBUG - Added paragraph with style body: This is an example of Body 3...
+2024-12-10 06:31:07,073 - DEBUG - Generated style name: Heading 4 for heading level 4
+2024-12-10 06:31:07,128 - INFO - Applied style: Heading 4
+2024-12-10 06:31:07,158 - DEBUG - Added paragraph with style heading: Heading 4: This is an Example of Heading 4...
+2024-12-10 06:31:07,402 - DEBUG - Generated style name: Body 4 for body level 4
+2024-12-10 06:31:07,456 - INFO - Applied style: Body 4
+2024-12-10 06:31:07,488 - DEBUG - Added paragraph with style body: This is an example of Body 4...
+2024-12-10 06:31:07,679 - DEBUG - Generated style name: Heading 5 for heading level 5
+2024-12-10 06:31:07,729 - INFO - Applied style: Heading 5
+2024-12-10 06:31:07,759 - DEBUG - Added paragraph with style heading: Heading 5: This is an Example of Heading 5...
+2024-12-10 06:31:07,941 - DEBUG - Generated style name: Body 5 for body level 5
+2024-12-10 06:31:07,993 - INFO - Applied style: Body 5
+2024-12-10 06:31:08,021 - DEBUG - Added paragraph with style body: This is an example of Body 5...
+2024-12-10 06:31:08,196 - DEBUG - Generated style name: Heading 6 for heading level 6
+2024-12-10 06:31:08,247 - INFO - Applied style: Heading 6
+2024-12-10 06:31:08,282 - DEBUG - Added paragraph with style heading: Heading 6: This is an Example of Heading 6...
+2024-12-10 06:31:08,472 - DEBUG - Generated style name: Body 6 for body level 6
+2024-12-10 06:31:08,523 - INFO - Applied style: Body 6
+2024-12-10 06:31:08,551 - DEBUG - Added paragraph with style body: This is an example of Body 6...
+2024-12-10 06:31:08,740 - DEBUG - Generated style name: Heading 7 for heading level 7
+2024-12-10 06:31:08,794 - INFO - Applied style: Heading 7
+2024-12-10 06:31:08,827 - DEBUG - Added paragraph with style heading: Heading 7: This is an Example of Heading 7...
+2024-12-10 06:31:09,012 - DEBUG - Generated style name: Body 7 for body level 7
+2024-12-10 06:31:09,077 - INFO - Applied style: Body 7
+2024-12-10 06:31:09,103 - DEBUG - Added paragraph with style body: This is an example of Body 7...
+2024-12-10 06:31:09,285 - DEBUG - Generated style name: Blockquote 7 for blockquote level 7
+2024-12-10 06:31:09,343 - INFO - Applied style: Blockquote 7
+2024-12-10 06:31:09,386 - DEBUG - Added paragraph with style blockquote: "Only Thing We Have to Fear Is Fear Itself"...
+2024-12-10 06:31:09,581 - DEBUG - Generated style name: Blockquote 7 for blockquote level 7
+2024-12-10 06:31:09,634 - INFO - Applied style: Blockquote 7
+2024-12-10 06:31:09,663 - DEBUG - Added paragraph with style blockquote: Franklin D. Roosevelt...
+2024-12-10 06:31:09,853 - DEBUG - Generated style name: Heading 8 for heading level 8
+2024-12-10 06:31:09,910 - INFO - Applied style: Heading 8
+2024-12-10 06:31:09,943 - DEBUG - Added paragraph with style heading: Heading 8: This is an Example of Heading 8...
+2024-12-10 06:31:10,125 - DEBUG - Generated style name: Body 8 for body level 8
+2024-12-10 06:31:10,181 - INFO - Applied style: Body 8
+2024-12-10 06:31:10,217 - DEBUG - Added paragraph with style body: This is an example of Body 8...
+2024-12-10 06:31:10,409 - DEBUG - Generated style name: Body 8 for body level 8
+2024-12-10 06:31:10,474 - INFO - Applied style: Body 8
+2024-12-10 06:31:10,504 - DEBUG - Added paragraph with style body: `2024-12-10 06:11:52,568 - DEBUG - Applied italic ...
+2024-12-10 06:31:10,704 - DEBUG - Generated style name: Body 8 for body level 8
+2024-12-10 06:31:10,755 - INFO - Applied style: Body 8
+2024-12-10 06:31:10,905 - DEBUG - Applied bold-italic to: Bold and Italic Item
+2024-12-10 06:31:11,004 - DEBUG - Applied bold to: Bold and Italic Item
+2024-12-10 06:31:11,091 - DEBUG - Applied italic to: Bold and Italic Item
+2024-12-10 06:31:11,095 - DEBUG - Added paragraph with style body: 2024-12-10 06:11:52,573 - DEBUG - Added paragraph ...
+2024-12-10 06:31:11,296 - DEBUG - Generated style name: Body 8 for body level 8
+2024-12-10 06:31:11,348 - INFO - Applied style: Body 8
+2024-12-10 06:31:11,379 - DEBUG - Added paragraph with style body: 2024-12-10 06:11:52,741 - DEBUG - Generated style ...
+2024-12-10 06:31:11,570 - DEBUG - Generated style name: Body 8 for body level 8
+2024-12-10 06:31:11,621 - INFO - Applied style: Body 8
+2024-12-10 06:31:11,648 - DEBUG - Added paragraph with style body: 2024-12-10 06:11:52,799 - INFO - Applied style: Bl...
+2024-12-10 06:31:11,849 - DEBUG - Generated style name: Heading 9 for heading level 9
+2024-12-10 06:31:11,902 - INFO - Applied style: Heading 9
+2024-12-10 06:31:11,936 - DEBUG - Added paragraph with style heading: Heading 9: This is an Example of Heading 9...
+2024-12-10 06:31:12,145 - DEBUG - Generated style name: Body 9 for body level 9
+2024-12-10 06:31:12,200 - INFO - Applied style: Body 9
+2024-12-10 06:31:12,231 - DEBUG - Added paragraph with style body: This is an example of Body 9...
+2024-12-10 06:31:12,423 - INFO - Document saved successfully to C:\Users\jlawrence\Documents\Markdown_Verter_Output\20241210_063057_Test Markdown Code_v2.0.docx

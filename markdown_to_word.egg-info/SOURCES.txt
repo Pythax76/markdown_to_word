@@ -1,0 +1,13 @@
+setup.py
+markdown_to_word.egg-info/PKG-INFO
+markdown_to_word.egg-info/SOURCES.txt
+markdown_to_word.egg-info/dependency_links.txt
+markdown_to_word.egg-info/requires.txt
+markdown_to_word.egg-info/top_level.txt
+src/__init__.py
+src/converter.py
+src/formatters.py
+src/style_manager.py
+src/utils.py
+tests/__init__.py
+tests/test_environment.py
